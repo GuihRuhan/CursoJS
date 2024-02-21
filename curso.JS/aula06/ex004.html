@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font: normal 10pt Courier;
+        }
+    </style> 
+</head>
+<body>
+    <script>
+        var nome = window.prompt('Qual o seu nome? ')
+        document.write(`Seu <strong>${nome}</strong>, seu nome tem ${nome.length} letras.<br/>`)
+        document.write(`Seu nome em letra maiúscula é ${nome.toUpperCase()}<br/>`)
+        document.write(`Seu nome em letra minúsculo é ${nome.toLowerCase()}`)
+    //n1.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'}) para deixar em formato da moeda do Brasil.
+    </script>
+</body>
+</html>
